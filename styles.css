@@ -1,34 +1,58 @@
-body, html {
+body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
 }
 
-header h1 {
-    font-size: 2.5em;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
     margin: 0;
+    font-size: 24px;
 }
 
-header p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
+.logo p {
+    margin: 0;
+    font-size: 14px;
 }
 
-main {
-    text-align: center;
-    padding: 50px 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.8em;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact a i {
+    margin-right: 5px;
 }
 
